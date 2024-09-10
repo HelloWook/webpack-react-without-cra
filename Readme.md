@@ -1,1 +1,1 @@
-### webpack 없이 cra 만들기
+### cra 없이 react 만들기
