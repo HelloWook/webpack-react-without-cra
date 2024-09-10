@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6", // 컴파일된 JS 코드의 ECMAScript 버전
+    "module": "esnext", // 모듈 시스템 설정 (예: CommonJS, ESNext 등)
+    "jsx": "react-jsx", // JSX 사용을 위한 설정 ('react', 'react-jsx', 'react-native' 등이 있음)
+    "strict": true, // 엄격한 타입 검사를 위해 설정
+    "esModuleInterop": true, // CommonJS 모듈과의 호환성을 위해 설정
+    "skipLibCheck": true, // 라이브러리 타입 검사를 생략하여 컴파일 속도를 높임
+    "forceConsistentCasingInFileNames": true, // 파일 이름 대소문자 일관성 검사
+    "moduleResolution": "node", // Node.js 모듈 해석 사용
+    "baseUrl": ".", // 기본 경로 설정
+    "paths": {
+      "*": ["src/*"] // 모듈 경로 설정
+    }
+  },
+  "include": ["src"], // 포함할 파일 경로
+  "exclude": ["node_modules"] // 제외할 파일 경로
+}
